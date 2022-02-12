@@ -1,0 +1,108 @@
+header .logo:hover, body main .seccion3 .seccionRedes img:hover, body main .seccion2 .resaltar:hover, footer .seccion5 .marcas h2:hover {
+  padding: 2px; }
+
+@media (max-width: 769px) {
+  header {
+    height: 60px; } }
+
+header .logo {
+  height: 100px;
+  border-radius: 50%;
+  margin: 10px; }
+  @media (max-width: 769px) {
+    header .logo {
+      height: 60px;
+      position: relative;
+      right: 20%; } }
+
+header .moverLogo {
+  display: flex; }
+
+header a {
+  font-weight: 30;
+  margin-left: 60px;
+  font-size: 20px; }
+  header a:hover {
+    font-weight: bold; }
+
+header .botonGris {
+  right: 30px; }
+
+* {
+  box-sizing: border-box;
+  margin: 0%;
+  padding: 0%; }
+
+::-webkit-scrollbar {
+  display: none; }
+
+body main img {
+  width: 100%; }
+
+body main .seccion1 {
+  margin-top: 10px;
+  background-color: #77b3af;
+  display: flex;
+  justify-content: center; }
+
+body main .img {
+  width: 70px;
+  margin: 30px 100px; }
+
+body main .seccion3 {
+  text-align: center;
+  margin: 20px; }
+  body main .seccion3 .seccionRedes {
+    display: flex;
+    justify-content: space-around; }
+    body main .seccion3 .seccionRedes img {
+      height: 40px; }
+
+body main .seccion2 {
+  text-align: center; }
+  body main .seccion2 .h2 {
+    color: #16cbcb; }
+    body main .seccion2 .h2:hover {
+      color: black; }
+  body main .seccion2 .colorLetras {
+    color: green; }
+    body main .seccion2 .colorLetras:active {
+      font-weight: bold; }
+  body main .seccion2 .colorLetrasNo {
+    color: red; }
+
+@media (max-width: 767px) {
+  body main img {
+    padding: 15%; }
+  body main .texto {
+    font-size: 15px; }
+  body main .h2 {
+    font-size: 20px; }
+  body main .informacion {
+    display: none; }
+  body main .img {
+    width: 50px;
+    margin: 1px 10px; } }
+
+footer {
+  text-align: center; }
+  footer .seccion4 {
+    text-align: center;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #77b3af; }
+    footer .seccion4 p {
+      margin: 20px; }
+  footer .seccion5 form {
+    display: flex;
+    margin: 15px; }
+  footer .seccion5 .marcas {
+    margin: 15px; }
+  footer .seccion5 h4 {
+    font-size: 20px;
+    margin-right: 20px; }
+  footer .seccion5 iframe {
+    margin-right: 20px; }
+  @media (max-width: 767px) {
+    footer .nav {
+      display: contents; } }
